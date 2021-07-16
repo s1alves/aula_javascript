@@ -7,8 +7,8 @@ function clicou(){
 
 
 function redirecionar(){
-window.open("https://www.google.com.br/"); //abre em outra aba
-//window.location.href = "https://www.google.com.br/"; //abre na mesma janela
+window.open("https://www.google.com.br/"); //abre em outra aba/guia
+//window.location.href = "https://www.google.com.br/"; //abre na mesma janela, sobrepondo a página atual
 }
 
 function trocar (elemento){
@@ -21,7 +21,7 @@ function voltar(elemento){
 }
 
 function load(){
-    alert("Página carregada");
+    alert("Let's code!");
 }
 
 function funcaoChange(elemento){
